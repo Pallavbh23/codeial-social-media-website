@@ -1,0 +1,15 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "Social Platform Coding",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "author": "Pallav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
