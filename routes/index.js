@@ -8,4 +8,5 @@ const homeController = require("../controllers/home_controller");
 router.get("/", homeController.home);
 router.use("/users/", require("./users"));
 router.post("/display", homeController.display);
+router.use("/posts/", require("./posts"));
 module.exports = router;
