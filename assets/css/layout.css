@@ -54,6 +54,7 @@ ul {
   list-style: none;
   display: block;
   width: auto;
+  height: 4vh;
 }
 
 li {
